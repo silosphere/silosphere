@@ -1,14 +1,10 @@
 import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
-
-
-
+import Layout from "./layout";
 export default function Home() {
   return (
     <div>
-      <h1>
-        Clarence Kurt B. Silos
-      </h1>
+      <h1 className="text-red-800 text-3xl font-bold">Silos</h1>
     </div>
   );
+
 }
